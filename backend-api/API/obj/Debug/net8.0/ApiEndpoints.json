@@ -1,0 +1,2805 @@
+[
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AccountController",
+    "Method": "AssignCompany",
+    "RelativePath": "api/Account/assign-company",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assignCompanyDto",
+        "Type": "HrManagementSystem.API.Controllers.AssignCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AccountController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Account/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePasswordDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AccountController",
+    "Method": "CreateCompany",
+    "RelativePath": "api/Account/create-company",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.CompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AccountController",
+    "Method": "Logout",
+    "RelativePath": "api/Account/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AccountController",
+    "Method": "GetProfile",
+    "RelativePath": "api/Account/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AccountController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Account/profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AccountController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Account/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenDto",
+        "Type": "HrManagementSystem.API.Controllers.RefreshTokenDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AccountController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Account/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AccountController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Account/users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AccountController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Account/users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AdminController",
+    "Method": "ActivateUser",
+    "RelativePath": "api/Admin/activate-user/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AdminController",
+    "Method": "ApproveCompany",
+    "RelativePath": "api/Admin/approve-company",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "approvalDto",
+        "Type": "HrManagementSystem.API.Controllers.CompanyApprovalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AdminController",
+    "Method": "GetCompanies",
+    "RelativePath": "api/Admin/companies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.PaginatedResultDto\u00601[[HrManagementSystem.BusinessLogic.DTOs.CompanyDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AdminController",
+    "Method": "DeleteCompany",
+    "RelativePath": "api/Admin/company/{companyId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AdminController",
+    "Method": "GetCompanyEmployees",
+    "RelativePath": "api/Admin/company/{companyId}/employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.PaginatedResultDto\u00601[[HrManagementSystem.BusinessLogic.DTOs.EmployeeDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AdminController",
+    "Method": "GetDashboard",
+    "RelativePath": "api/Admin/dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.AdminDashboardDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AdminController",
+    "Method": "DeactivateUser",
+    "RelativePath": "api/Admin/deactivate-user/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AdminController",
+    "Method": "UpdateSubscription",
+    "RelativePath": "api/Admin/update-subscription",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateDto",
+        "Type": "HrManagementSystem.API.Controllers.SubscriptionUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AdminController",
+    "Method": "UpdateUserRole",
+    "RelativePath": "api/Admin/update-user-role",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateDto",
+        "Type": "HrManagementSystem.API.Controllers.UserRoleUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.AdminController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Admin/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.UserDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.CompanyController",
+    "Method": "GetAllCompanies",
+    "RelativePath": "api/Company",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.CompanyDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.CompanyController",
+    "Method": "CreateCompany",
+    "RelativePath": "api/Company",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.CompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.CompanyDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.CompanyController",
+    "Method": "GetCompany",
+    "RelativePath": "api/Company/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.CompanyDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.CompanyController",
+    "Method": "UpdateCompany",
+    "RelativePath": "api/Company/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "companyDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.CompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.CompanyController",
+    "Method": "DeleteCompany",
+    "RelativePath": "api/Company/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.CompanyController",
+    "Method": "ApproveCompany",
+    "RelativePath": "api/Company/{id}/approve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.CompanyController",
+    "Method": "RejectCompany",
+    "RelativePath": "api/Company/{id}/reject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reason",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.CompanyController",
+    "Method": "UpdateCompanySubscription",
+    "RelativePath": "api/Company/{id}/subscription",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newEndDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.CompanyController",
+    "Method": "GetCurrentUserCompany",
+    "RelativePath": "api/Company/current",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.CompanyDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.CompanyController",
+    "Method": "GetPaginatedCompanies",
+    "RelativePath": "api/Company/paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.PaginatedResultDto\u00601[[HrManagementSystem.BusinessLogic.DTOs.CompanyDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.CompanyController",
+    "Method": "GetCompanySummaries",
+    "RelativePath": "api/Company/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.CompanySummaryDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.DashboardController",
+    "Method": "GetDashboard",
+    "RelativePath": "api/Dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.DashboardController",
+    "Method": "GetCompanyOverview",
+    "RelativePath": "api/Dashboard/company-overview",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.DashboardController",
+    "Method": "GetEmployeeSummary",
+    "RelativePath": "api/Dashboard/employee-summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.DashboardController",
+    "Method": "GetRecentNotifications",
+    "RelativePath": "api/Dashboard/notifications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.DashboardController",
+    "Method": "GetPendingApprovals",
+    "RelativePath": "api/Dashboard/pending-approvals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.DashboardController",
+    "Method": "GetUpcomingEvents",
+    "RelativePath": "api/Dashboard/upcoming-events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "GetAllEmployees",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.EmployeeDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "CreateEmployee",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.EmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.EmployeeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "GetEmployee",
+    "RelativePath": "api/Employee/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.EmployeeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "UpdateEmployee",
+    "RelativePath": "api/Employee/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "employeeDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.EmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/Employee/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "GetEmployeeExpenses",
+    "RelativePath": "api/Employee/{id}/expenses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.ExpenseDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "GetEmployeeLeaves",
+    "RelativePath": "api/Employee/{id}/leaves",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.LeaveDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "UpdateEmployeePosition",
+    "RelativePath": "api/Employee/{id}/position",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "newPosition",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "GetEmployeeResume",
+    "RelativePath": "api/Employee/{id}/resume",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "UpdateEmployeeResume",
+    "RelativePath": "api/Employee/{id}/resume",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "resumeDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "GetCurrentEmployee",
+    "RelativePath": "api/Employee/current",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.EmployeeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "GetPaginatedEmployees",
+    "RelativePath": "api/Employee/paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.PaginatedResultDto\u00601[[HrManagementSystem.BusinessLogic.DTOs.EmployeeDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.EmployeeController",
+    "Method": "GetUpcomingBirthdays",
+    "RelativePath": "api/Employee/upcoming-birthdays",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "daysAhead",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.EmployeeDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ExpenseController",
+    "Method": "GetExpensesByEmployee",
+    "RelativePath": "api/Expense",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.ExpenseDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ExpenseController",
+    "Method": "CreateExpense",
+    "RelativePath": "api/Expense",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expenseDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ExpenseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ExpenseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ExpenseController",
+    "Method": "GetExpense",
+    "RelativePath": "api/Expense/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ExpenseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ExpenseController",
+    "Method": "UpdateExpense",
+    "RelativePath": "api/Expense/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "expenseDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ExpenseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ExpenseController",
+    "Method": "DeleteExpense",
+    "RelativePath": "api/Expense/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ExpenseController",
+    "Method": "ApproveExpense",
+    "RelativePath": "api/Expense/{id}/approve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "approvalDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ApprovalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ExpenseController",
+    "Method": "RejectExpense",
+    "RelativePath": "api/Expense/{id}/reject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "approvalDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ApprovalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ExpenseController",
+    "Method": "GetMonthlyExpenseTotal",
+    "RelativePath": "api/Expense/monthly-total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Decimal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ExpenseController",
+    "Method": "GetPaginatedExpenses",
+    "RelativePath": "api/Expense/paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.PaginatedResultDto\u00601[[HrManagementSystem.BusinessLogic.DTOs.ExpenseDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ExpenseController",
+    "Method": "GetPendingExpenses",
+    "RelativePath": "api/Expense/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.ExpenseDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ExpenseController",
+    "Method": "GetTotalExpensesByEmployee",
+    "RelativePath": "api/Expense/total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Decimal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ExpenseController",
+    "Method": "GetWeeklyExpenseTotal",
+    "RelativePath": "api/Expense/weekly-total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Decimal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.HolidayController",
+    "Method": "CreateHoliday",
+    "RelativePath": "api/Holiday",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "holidayDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.HolidayDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.HolidayDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.HolidayController",
+    "Method": "GetHoliday",
+    "RelativePath": "api/Holiday/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.HolidayDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.HolidayController",
+    "Method": "UpdateHoliday",
+    "RelativePath": "api/Holiday/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "holidayDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.HolidayDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.HolidayController",
+    "Method": "DeleteHoliday",
+    "RelativePath": "api/Holiday/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.HolidayController",
+    "Method": "GetHolidaysByCompany",
+    "RelativePath": "api/Holiday/company",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.HolidayDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.HolidayController",
+    "Method": "GetUpcomingHolidays",
+    "RelativePath": "api/Holiday/upcoming",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "daysAhead",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.HolidayDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.LeaveController",
+    "Method": "GetLeavesByEmployee",
+    "RelativePath": "api/Leave",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.LeaveDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.LeaveController",
+    "Method": "CreateLeave",
+    "RelativePath": "api/Leave",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leaveDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.LeaveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.LeaveDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.LeaveController",
+    "Method": "GetLeave",
+    "RelativePath": "api/Leave/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.LeaveDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.LeaveController",
+    "Method": "UpdateLeave",
+    "RelativePath": "api/Leave/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "leaveDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.LeaveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.LeaveController",
+    "Method": "DeleteLeave",
+    "RelativePath": "api/Leave/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.LeaveController",
+    "Method": "ApproveLeave",
+    "RelativePath": "api/Leave/{id}/approve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "approvalDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ApprovalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.LeaveController",
+    "Method": "RejectLeave",
+    "RelativePath": "api/Leave/{id}/reject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "approvalDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ApprovalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.LeaveController",
+    "Method": "GetPaginatedLeaves",
+    "RelativePath": "api/Leave/paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.PaginatedResultDto\u00601[[HrManagementSystem.BusinessLogic.DTOs.LeaveDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.LeaveController",
+    "Method": "GetPendingLeaves",
+    "RelativePath": "api/Leave/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.LeaveDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.LeaveController",
+    "Method": "GetRemainingLeaveDays",
+    "RelativePath": "api/Leave/remaining-days",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.NotificationController",
+    "Method": "GetNotificationsByEmployee",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.NotificationDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.NotificationController",
+    "Method": "CreateNotification",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.NotificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.NotificationDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.NotificationController",
+    "Method": "GetNotification",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.NotificationDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.NotificationController",
+    "Method": "UpdateNotification",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "notificationDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.NotificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.NotificationController",
+    "Method": "DeleteNotification",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.NotificationController",
+    "Method": "MarkNotificationAsRead",
+    "RelativePath": "api/Notification/{id}/read",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.NotificationController",
+    "Method": "GetRecentNotifications",
+    "RelativePath": "api/Notification/recent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.NotificationDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.NotificationController",
+    "Method": "GetUnreadNotifications",
+    "RelativePath": "api/Notification/unread",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.NotificationDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.NotificationController",
+    "Method": "GetUnreadNotificationCount",
+    "RelativePath": "api/Notification/unread-count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ReportController",
+    "Method": "GetCompanyReport",
+    "RelativePath": "api/Report/company",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.CompanyReportDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ReportController",
+    "Method": "GetEmployeeReport",
+    "RelativePath": "api/Report/employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.EmployeeReportDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ReportController",
+    "Method": "GetExpenseReport",
+    "RelativePath": "api/Report/expense",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ExpenseReportDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ReportController",
+    "Method": "GetLeaveReport",
+    "RelativePath": "api/Report/leave",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.LeaveReportDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ReportController",
+    "Method": "GetShiftReport",
+    "RelativePath": "api/Report/shift",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ShiftReportDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "GetMyResume",
+    "RelativePath": "api/Resume",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "CreateResume",
+    "RelativePath": "api/Resume",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "UpdateResume",
+    "RelativePath": "api/Resume",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "GetEmployeeResume",
+    "RelativePath": "api/Resume/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "DeleteResume",
+    "RelativePath": "api/Resume/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "AddCertification",
+    "RelativePath": "api/Resume/{resumeId}/certification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "certificationDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.CertificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "UpdateCertification",
+    "RelativePath": "api/Resume/{resumeId}/certification/{certificationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "certificationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "certificationDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.CertificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "DeleteCertification",
+    "RelativePath": "api/Resume/{resumeId}/certification/{certificationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "certificationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "AddEducation",
+    "RelativePath": "api/Resume/{resumeId}/education",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "educationDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.EducationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "UpdateEducation",
+    "RelativePath": "api/Resume/{resumeId}/education/{educationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "educationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "educationDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.EducationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "DeleteEducation",
+    "RelativePath": "api/Resume/{resumeId}/education/{educationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "educationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "AddLanguage",
+    "RelativePath": "api/Resume/{resumeId}/language",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "languageDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.LanguageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "UpdateLanguage",
+    "RelativePath": "api/Resume/{resumeId}/language/{languageId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "languageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "languageDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.LanguageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "DeleteLanguage",
+    "RelativePath": "api/Resume/{resumeId}/language/{languageId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "languageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "AddSkill",
+    "RelativePath": "api/Resume/{resumeId}/skill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "skillDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.SkillDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "UpdateSkill",
+    "RelativePath": "api/Resume/{resumeId}/skill/{skillId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "skillId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "skillDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.SkillDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "DeleteSkill",
+    "RelativePath": "api/Resume/{resumeId}/skill/{skillId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "skillId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "AddWorkExperience",
+    "RelativePath": "api/Resume/{resumeId}/workexperience",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "workExperienceDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.WorkExperienceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "UpdateWorkExperience",
+    "RelativePath": "api/Resume/{resumeId}/workexperience/{workExperienceId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "workExperienceId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "workExperienceDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.WorkExperienceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ResumeController",
+    "Method": "DeleteWorkExperience",
+    "RelativePath": "api/Resume/{resumeId}/workexperience/{workExperienceId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resumeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "workExperienceId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ResumeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ShiftController",
+    "Method": "GetShiftsByEmployee",
+    "RelativePath": "api/Shift",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.ShiftDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ShiftController",
+    "Method": "CreateShift",
+    "RelativePath": "api/Shift",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shiftDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ShiftDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ShiftDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ShiftController",
+    "Method": "GetShift",
+    "RelativePath": "api/Shift/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ShiftDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ShiftController",
+    "Method": "UpdateShift",
+    "RelativePath": "api/Shift/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "shiftDto",
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.ShiftDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ShiftController",
+    "Method": "DeleteShift",
+    "RelativePath": "api/Shift/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ShiftController",
+    "Method": "GetActiveShifts",
+    "RelativePath": "api/Shift/active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.ShiftDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ShiftController",
+    "Method": "AssignEmployeeToShift",
+    "RelativePath": "api/Shift/assign/{shiftId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shiftId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "employeeId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ShiftController",
+    "Method": "GetShiftsByEmployeeId",
+    "RelativePath": "api/Shift/employee/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.ShiftDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ShiftController",
+    "Method": "GetPaginatedShifts",
+    "RelativePath": "api/Shift/paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HrManagementSystem.BusinessLogic.DTOs.PaginatedResultDto\u00601[[HrManagementSystem.BusinessLogic.DTOs.ShiftDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ShiftController",
+    "Method": "UnassignEmployeeFromShift",
+    "RelativePath": "api/Shift/unassign/{shiftId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shiftId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HrManagementSystem.API.Controllers.ShiftController",
+    "Method": "GetUpcomingShifts",
+    "RelativePath": "api/Shift/upcoming",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HrManagementSystem.BusinessLogic.DTOs.ShiftDto, Hr.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+C:\projects-net-c\cansel-odev\API\obj\Release\net8.0\Hr.API.csproj.AssemblyReference.cache
+C:\projects-net-c\cansel-odev\API\obj\Release\net8.0\Hr.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects-net-c\cansel-odev\API\obj\Release\net8.0\Hr.API.AssemblyInfoInputs.cache
+C:\projects-net-c\cansel-odev\API\obj\Release\net8.0\Hr.API.AssemblyInfo.cs
+C:\projects-net-c\cansel-odev\API\obj\Release\net8.0\Hr.API.csproj.CoreCompileInputs.cache
+C:\projects-net-c\cansel-odev\API\obj\Release\net8.0\Hr.API.MvcApplicationPartsAssemblyInfo.cache

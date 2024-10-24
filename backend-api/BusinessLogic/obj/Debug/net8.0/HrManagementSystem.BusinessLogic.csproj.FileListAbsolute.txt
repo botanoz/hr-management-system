@@ -1,0 +1,17 @@
+C:\projects-net-c\hr-management-system\BusinessLogic\bin\Debug\net8.0\HrManagementSystem.BusinessLogic.deps.json
+C:\projects-net-c\hr-management-system\BusinessLogic\bin\Debug\net8.0\HrManagementSystem.BusinessLogic.dll
+C:\projects-net-c\hr-management-system\BusinessLogic\bin\Debug\net8.0\HrManagementSystem.BusinessLogic.pdb
+C:\projects-net-c\hr-management-system\BusinessLogic\bin\Debug\net8.0\HrManagementSystem.DataLayer.dll
+C:\projects-net-c\hr-management-system\BusinessLogic\bin\Debug\net8.0\HrManagementSystem.ServiceLayer.dll
+C:\projects-net-c\hr-management-system\BusinessLogic\bin\Debug\net8.0\HrManagementSystem.DataLayer.pdb
+C:\projects-net-c\hr-management-system\BusinessLogic\bin\Debug\net8.0\HrManagementSystem.ServiceLayer.pdb
+C:\projects-net-c\hr-management-system\BusinessLogic\obj\Debug\net8.0\HrManagementSystem.BusinessLogic.csproj.AssemblyReference.cache
+C:\projects-net-c\hr-management-system\BusinessLogic\obj\Debug\net8.0\HrManagementSystem.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects-net-c\hr-management-system\BusinessLogic\obj\Debug\net8.0\HrManagementSystem.BusinessLogic.AssemblyInfoInputs.cache
+C:\projects-net-c\hr-management-system\BusinessLogic\obj\Debug\net8.0\HrManagementSystem.BusinessLogic.AssemblyInfo.cs
+C:\projects-net-c\hr-management-system\BusinessLogic\obj\Debug\net8.0\HrManagementSystem.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\projects-net-c\hr-management-system\BusinessLogic\obj\Debug\net8.0\HrManage.13621581.Up2Date
+C:\projects-net-c\hr-management-system\BusinessLogic\obj\Debug\net8.0\HrManagementSystem.BusinessLogic.dll
+C:\projects-net-c\hr-management-system\BusinessLogic\obj\Debug\net8.0\refint\HrManagementSystem.BusinessLogic.dll
+C:\projects-net-c\hr-management-system\BusinessLogic\obj\Debug\net8.0\HrManagementSystem.BusinessLogic.pdb
+C:\projects-net-c\hr-management-system\BusinessLogic\obj\Debug\net8.0\ref\HrManagementSystem.BusinessLogic.dll

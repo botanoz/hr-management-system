@@ -1,0 +1,14 @@
+C:\projects-net-c\hr-management-system\DataLayer\bin\Debug\net8.0\HrManagementSystem.DataLayer.deps.json
+C:\projects-net-c\hr-management-system\DataLayer\bin\Debug\net8.0\HrManagementSystem.DataLayer.runtimeconfig.json
+C:\projects-net-c\hr-management-system\DataLayer\bin\Debug\net8.0\HrManagementSystem.DataLayer.dll
+C:\projects-net-c\hr-management-system\DataLayer\bin\Debug\net8.0\HrManagementSystem.DataLayer.pdb
+C:\projects-net-c\hr-management-system\DataLayer\obj\Debug\net8.0\HrManagementSystem.DataLayer.csproj.AssemblyReference.cache
+C:\projects-net-c\hr-management-system\DataLayer\obj\Debug\net8.0\HrManagementSystem.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects-net-c\hr-management-system\DataLayer\obj\Debug\net8.0\HrManagementSystem.DataLayer.AssemblyInfoInputs.cache
+C:\projects-net-c\hr-management-system\DataLayer\obj\Debug\net8.0\HrManagementSystem.DataLayer.AssemblyInfo.cs
+C:\projects-net-c\hr-management-system\DataLayer\obj\Debug\net8.0\HrManagementSystem.DataLayer.csproj.CoreCompileInputs.cache
+C:\projects-net-c\hr-management-system\DataLayer\obj\Debug\net8.0\HrManagementSystem.DataLayer.dll
+C:\projects-net-c\hr-management-system\DataLayer\obj\Debug\net8.0\refint\HrManagementSystem.DataLayer.dll
+C:\projects-net-c\hr-management-system\DataLayer\obj\Debug\net8.0\HrManagementSystem.DataLayer.pdb
+C:\projects-net-c\hr-management-system\DataLayer\obj\Debug\net8.0\HrManagementSystem.DataLayer.genruntimeconfig.cache
+C:\projects-net-c\hr-management-system\DataLayer\obj\Debug\net8.0\ref\HrManagementSystem.DataLayer.dll

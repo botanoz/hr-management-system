@@ -1,0 +1,14 @@
+C:\projects-net-c\cansel-odev\DataLayer\bin\Release\net8.0\Hr.DL.deps.json
+C:\projects-net-c\cansel-odev\DataLayer\bin\Release\net8.0\Hr.DL.runtimeconfig.json
+C:\projects-net-c\cansel-odev\DataLayer\bin\Release\net8.0\Hr.DL.dll
+C:\projects-net-c\cansel-odev\DataLayer\bin\Release\net8.0\Hr.DL.pdb
+C:\projects-net-c\cansel-odev\DataLayer\obj\Release\net8.0\Hr.DL.csproj.AssemblyReference.cache
+C:\projects-net-c\cansel-odev\DataLayer\obj\Release\net8.0\Hr.DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects-net-c\cansel-odev\DataLayer\obj\Release\net8.0\Hr.DL.AssemblyInfoInputs.cache
+C:\projects-net-c\cansel-odev\DataLayer\obj\Release\net8.0\Hr.DL.AssemblyInfo.cs
+C:\projects-net-c\cansel-odev\DataLayer\obj\Release\net8.0\Hr.DL.csproj.CoreCompileInputs.cache
+C:\projects-net-c\cansel-odev\DataLayer\obj\Release\net8.0\Hr.DL.dll
+C:\projects-net-c\cansel-odev\DataLayer\obj\Release\net8.0\refint\Hr.DL.dll
+C:\projects-net-c\cansel-odev\DataLayer\obj\Release\net8.0\Hr.DL.pdb
+C:\projects-net-c\cansel-odev\DataLayer\obj\Release\net8.0\Hr.DL.genruntimeconfig.cache
+C:\projects-net-c\cansel-odev\DataLayer\obj\Release\net8.0\ref\Hr.DL.dll
